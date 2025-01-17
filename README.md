@@ -26,20 +26,31 @@ The repository also includes a **Streamlit app** that allows users to test the m
 ---
 
 ## 📂 Repository Structure
-lip-reading-deep-learning/
+
+LipNet_PPP/
+
 ├── app/ # Streamlit app for testing the model
+
 │ ├── main.py # Streamlit application code
+
 │ └── requirements.txt # Dependencies for the Streamlit app
+
 ├── models/ # Pre-trained model checkpoints
+
 │ ├── checkpoint_50/ # Model checkpoint at epoch 50
+
 │ └── checkpoint_96/ # Model checkpoint at epoch 96
+
 ├── data/ # Dataset and alignment files
+
 │ ├── alignments/ # Alignment files for training
+
 │ └── videos/ # Sample videos for testing
+
 ├── README.md # Project documentation
+
 └── .gitignore # Git ignore file
 
-Copy
 
 ---
 
